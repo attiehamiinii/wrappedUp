@@ -26,7 +26,6 @@ const themeGlows = {
 
 export default function StorySlide({
   slide,
-  onViewDetails,
   showCTA,
   onCTAClick,
 }: StorySlideProps) {

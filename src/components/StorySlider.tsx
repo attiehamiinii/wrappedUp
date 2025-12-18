@@ -13,7 +13,7 @@ interface StorySliderProps {
   onCTAClick?: () => void;
 }
 
-export default function StorySlider({ slides, ctaLink, onCTAClick }: StorySliderProps) {
+export default function StorySlider({ slides, onCTAClick }: StorySliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [modalSlide, setModalSlide] = useState<Slide | null>(null);
 
